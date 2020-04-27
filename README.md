@@ -24,8 +24,10 @@ Verisetine <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumoni
 <h2 align="center">
   SONUÇLAR
 </h2>
+
  Öncelikle araştırma yaptığımda kullanılan klasik ağ modellerinde normalde sınıflandırıcı katmanında yani son katmanda “softmax” aktivasyon fonksiyonu kullanılıyordu fakat “softmax” fonksiyonu ile modeller büyük kayıp değerlerine sahip oldular. Bu yüzden son katmanda aktivasyon fonksiyonu olarak “sigmoid” kullandım. 
-Modellerin eşit sayıda turları, öğrenme oranları vs. tüm parametreleri eşit olarak ağ eğitime sunulmuştur. Oluşturulan modeller kesinlikle transfer öğrenme şeklinde değil modellerin yalın hali ile yani önceden eğitim olmaksızın eğitim sıfırdan yapılmıştır.
+ 
+ Modellerin eşit sayıda turları, öğrenme oranları vs. tüm parametreleri eşit olarak ağ eğitime sunulmuştur. Oluşturulan modeller kesinlikle transfer öğrenme şeklinde değil modellerin yalın hali ile yani önceden eğitim olmaksızın eğitim sıfırdan yapılmıştır.
 Modellerin başarısını karşılaştırdığımızda DenseNet, ResNet’in ve Vgg16 doğrulama ve normal başarı oranlarının birbirine yakın olup optimuma yakın sonuçlar verdiği gözlenmiştir.
 
 <p align="center">
