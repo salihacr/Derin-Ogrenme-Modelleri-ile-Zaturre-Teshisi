@@ -15,7 +15,7 @@ Bu projede amaç ülkemizde her ilçede uzman doktor bulunmamaktadır bu gelişt
 Tıbbi alanda doktorların göğüs röntgenine bakıp teşhis koyması, günümüz teknoloji çağında zaman kaybettiren bir süreçtir. Bunun yerine var olan teknolojik imkânlardan ve yazılımlardan faydalanarak teşhis yapabilmek, zaman ve maliyet açısından son derece olumlu bir gelişmedir.
 
 Bu çalışmada, erişime açık olan (1-5) yaş arası küçük çocukların göğüs röntgeni görüntüleri kullanılmıştır. Veriseti 3 klasör halinde düzenlenmiş (train, test, val) ve her görüntü kategorisi içinde (Pneumonia / Normal) adı altında klasörler barındırmaktadır. 5.863 röntgen görüntüsü (JPEG) formatında 2 kategori (Pneumonia / Normal) bulunmaktadır. 
-Verisetine bu bağlantı üzerinden ulaşabilirsiniz.
+Verisetine <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">bu bağlantı</a> üzerinden ulaşabilirsiniz.
 
 <p align="center">
   <img src="post.png">
